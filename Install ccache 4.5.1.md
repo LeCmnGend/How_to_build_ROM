@@ -16,4 +16,4 @@
     $ cmake -DCMAKE_BUILD_TYPE=4.5.1
     $ make
     $ install
-    $ sudo ln -s /usr/bin/ccache /usr/local/bin/ccache
+    $ sudo ln -s /usr/local/bin/ccache /usr/bin/ccache

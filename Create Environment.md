@@ -16,5 +16,6 @@
 # Setup scripts (to /root/tc/scripts ~ is equal to /root )
       $ git clone -b 11.0 --single-branch --depth=1 https://github.com/LeCmnGend/scripts.git ~/tc/scipts
       $ cd ~/tc/scipts
+      $ bash b-pre.sh
       
   

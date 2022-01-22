@@ -1,5 +1,4 @@
 # To build ccache you need:
-
     	$ sudo aptitude install libhiredis-dev ruby-hiredis python3-hiredis asciidoctor
       
 # Install
@@ -17,3 +16,9 @@
     $ make
     $ install
     $ sudo ln -s /usr/local/bin/ccache /usr/bin/ccache
+    $ sudo ln -s ccache /usr/local/bin/clang
+	$ sudo ln -s ccache /usr/local/bin/clang++
+	$ sudo ln -s ccache /usr/local/bin/cc
+	$ sudo ln -s ccache /usr/local/bin/c++
+	$ sudo ln -s ccache /usr/local/bin/gcc
+	$ sudo ln -s ccache /usr/local/bin/g++

@@ -1,9 +1,18 @@
 # Symlink
+
 			$ sudo ln -s /usr/bin/python3 /usr/bin/python		
 			$ sudo ln -s /usr/lib32/libstdc++.so.6 /usr/lib32/libstdc++.so				
 			$ sudo ln -s /usr/lib32/libz.so.1 /usr/lib32/libz.so
+			$ sudo ln -s ccache /usr/local/bin/clang
+			$ sudo ln -s ccache /usr/local/bin/clang++
+			$ sudo ln -s ccache /usr/local/bin/cc
+			$ sudo ln -s ccache /usr/local/bin/c++
+			$ sudo ln -s ccache /usr/local/bin/gcc
+			$ sudo ln -s ccache /usr/local/bin/g++
+			
   
   To remove symlink: (example,dont need to run)
+  
 			$ rm /usr/bin/gcc
       
 # Move cache folder		

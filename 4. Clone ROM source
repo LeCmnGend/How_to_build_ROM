@@ -1,7 +1,0 @@
-# 1. Some information
-
-A full ROM need at least 4 parts:
-  1. ROM build source (superior, crDroid, pixelOS, lineage,...)
-  2. device source (ginkgo, violet,...)
-  3. kernel source
-  4. vendor source

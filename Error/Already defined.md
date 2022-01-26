@@ -1,0 +1,3 @@
+Rule abc ... are ready defined in ...
+Solve: Remove one of it (follow their path in the ubuntu console text)
+Prefer: Remove in device source side

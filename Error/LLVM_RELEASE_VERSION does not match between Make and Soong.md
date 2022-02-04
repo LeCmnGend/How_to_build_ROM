@@ -6,7 +6,9 @@ OR: Remove llvm from your device/BoardConfig.mk
 LLVM_RELEASE_VERSION ?= 14.0.0
 LLVM_PREBUILTS_VERSION ?= clang-proton
 ``````
-Update Clang assan dir 
+
+# Update Clang assan dir 
+
 Search: ClangAsanLibDir
 And change your clang:
 `````bash 

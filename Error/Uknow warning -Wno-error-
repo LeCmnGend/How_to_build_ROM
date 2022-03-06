@@ -1,0 +1,3 @@
+Clang 12 and above doesnt support -Wno-error- anymore, it changes to -Wno-error=
+
+File which folder cause this problems, and find in .mk file -Wno-error- then replace it to -Wno-error=

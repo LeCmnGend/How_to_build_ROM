@@ -1,4 +1,4 @@
-1. Create a file: /root/etc/wsl.conf.
+1. Create a file: /etc/wsl.conf.
 2. Put the following lines in the file in order to ensure the your DNS changes do not get blown away
 
 ```bash

@@ -11,6 +11,7 @@ generateResolvConf = false
 wsl --shutdown
 ```
 4. Restart WSL2 and run
+```bash
 sudo rm -rf /etc/resolv.conf
 sudo nano /etc/resolv.conf
 ```

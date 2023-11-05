@@ -8,7 +8,7 @@ export PATH=/root/bin:$PATH
 export PATH=$JAVA_HOME/bin:$PATH
 
 export USE_CCACHE=1
-export CCACHE_CONFIGPATH=$CCACHE_DIR/ccache.conf
+export CCACHE_CONFIGPATH=/mnt/f/.ccache/ccache.conf
 export CCACHE_EXEC=/usr/local/bin/ccache
 
 
@@ -18,5 +18,3 @@ export TC_DIR="/root/tc/proton/clang-17"
 export PATH=$TC_DIR/bin:~/bin:$PATH
 export CC="clang"
 export CXX="clang++"
-
-

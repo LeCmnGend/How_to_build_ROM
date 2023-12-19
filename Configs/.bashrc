@@ -11,20 +11,21 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 #Ccache
 export USE_CCACHE=1
-export CCACHE_CONFIGPATH=/mnt/f/.ccache/ccache.conf
-export CCACHE_EXEC=/usr/local/bin/ccache
-export CCACHE_BASEDIR=/mnt/f/.ccache
-export CCACHE_DIR=$CCACHE_BASEDIR/dir
-export CCACHE_TEMPDIR=$CCACHE_BASEDIR/tmp
+#export CCACHE_CONFIGPATH=/mnt/f/.ccache/ccache.conf
+#export CCACHE_EXEC=/usr/local/bin/ccache
+export CCACHE_DIR=/mnt/f/.ccache/dir
+#export CCACHE_BASEDIR=/mnt/f/.ccache
+export CCACHE_TEMPDIR=~/.cache/tmp
 export THINLTO_CACHE_DIR="$CCACHE_DIR/ltocache/"
-export CCACHE_LIMIT_MULTIPLE=0.95
+export CCACHE_LIMIT_MULTIPLE=0.96
 export CCACHE_NOHASHDIR=1
-export CCACHE_UMASK=002
+export CCACHE_UMASK="0002"
 export CCACHE_MAXFILES=0
-export CCACHE_MAXSIZE=40G
+export CCACHE_MAXSIZE=41G
 export CCACHE_COMPRESS=1
 export CCACHE_COMPRESSLEVEL=-3
-export CCACHE_NOINODECACHE=1
+#export CCACHE_NOINODECACHE=1
+export CCACHE_NODEBUG=true
 export CCACHE_CPP2=1
 export CCACHE_SLOPPINESS=file_macro,time_macros,include_file_mtime,include_file_ctime,file_stat_matches
 
